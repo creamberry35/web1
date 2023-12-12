@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Green Feeling</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--구글폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--네비게이션 영역 시작-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html#home">Green Feeling</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="nav-menu">
+          <ul class="navbar-nav ms-auto my-2">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#home">홈</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="vegetarian.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">채식</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">푸푸테리언</a></li>
+                <li><a class="dropdown-item" href="#">비건</a></li>
+                <li><a class="dropdown-item" href="#">락토 베지테리언</a></li>
+                <li><a class="dropdown-item" href="#">오보 베지테리언</a></li>
+                <li><a class="dropdown-item" href="#">락토-오보 베지테리언</a></li>
+                <li><a class="dropdown-item" href="#">페스코베지테리언</a></li>
+                <li><a class="dropdown-item" href="#">폴로 베지테리언</a></li>
+                <li><a class="dropdown-item" href="#">플렉시테리언</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipe.html#recipe">레시피</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="restaurant.html">맛집</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">콘텐츠</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--네비게이션 영역 끝-->
+
+    <!--섹션 코드 시작-->
+    <section class="container overflow-hidden py-5" id="recipe">
+        <div class="text-center py-5 ">
+            <h2 class="fw-bold mt-5">채식 레시피</h2>
+            <p class="lead mt-4 mb-5">간단하고 건강한 식생활 함께 공유하기</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/cookies.jpg" class="card-img-top" alt="비건 쿠키">
+                <div class="card-body">
+                  <h5 class="card-title">쌀가루 비건 쿠키</h5>
+                  <p class="card-text">두유와 박력 쌀가루로 만든 초간단 비건 쿠키</p>
+                  <a href="https://youtu.be/lkj4nXQBbCs?si=P_X150IukFd39lHJ" target="_blank" class="btn btn-success">레시피 보러가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/pasta1.jpg" class="card-img-top" alt="들깨 칼국수">
+                <div class="card-body">
+                  <h5 class="card-title">들깨 칼국수</h5>
+                  <p class="card-text">추운 날 몸을 따뜻하게 해줄 건강식 채소요리</p>
+                  <a href="https://youtu.be/tgDz3mU9IW4?si=-LLanPa-_fvxKyNA" target="_blank" class="btn btn-success">레시피 보러가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/stew.jpg" class="card-img-top" alt="채식 스튜">
+                <div class="card-body">
+                  <h5 class="card-title">비건 스튜</h5>
+                  <p class="card-text">지중해식 그릭 스타일, 비건 스튜</p>
+                  <a href="https://youtu.be/6-aoyc9c3HU?si=V7ifoUjsDFv0QfMn" target="_blank" class="btn btn-success">레시피 보러가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/pizza.jpg" class="card-img-top" alt="채식 고구마 피자">
+                <div class="card-body">
+                  <h5 class="card-title">고구마 피자</h5>
+                  <p class="card-text">오븐 없이 만들 수 있는 고구마 채식 피자</p>
+                  <a href="https://youtu.be/DeCW8yP3G7Q?si=gXfq3NeXDvO33ebI" target="_blank" class="btn btn-success">레시피 보러가기</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img src="images/tofu.jpg" class="card-img-top" alt="두부 동그랑땡">
+                  <div class="card-body">
+                    <h5 class="card-title">두부 동그랑땡</h5>
+                    <p class="card-text">겉은 바삭하고 속은 촉촉한 두부 동그랑땡</p>
+                    <a href="https://youtu.be/xp__arJgoFU?si=H4svUjUrK1pEfUDq" target="_blank" class="btn btn-success">레시피 보러가기</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img src="images/potatoes.jpg" class="card-img-top" alt="감자 라자냐">
+                  <div class="card-body">
+                    <h5 class="card-title">감자 라자냐</h5>
+                    <p class="card-text">밀가루 면 대신에 감자로 만든 라자냐</p>
+                    <a href="https://youtu.be/7KanirFM3Es?si=TpGlh6INkwUVn0Xf" target="_blank" class="btn btn-success">레시피 보러가기</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+    </section>
+    <!--섹션 코드 끝-->
+
+    <!--풋터 시작-->
+    <footer class="text-white">
+        <div class="container text-center">
+          <p class="py-4 mb-0">contact. 010-0000-0000 / Green Feeling@naver.com</p>
+        </div>
+      </footer>
+    <!--풋터 끝-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>

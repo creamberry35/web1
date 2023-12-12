@@ -1,0 +1,117 @@
+/* 네비게이션 */
+.nav-item {
+    margin-right: 20px; /* 각 네비게이션 아이템 간격 조절 */
+    font-size: 18px; /* 네비게이션 아이템 폰트 크기 조절 */
+    font-weight: bold; /* 폰트 굵기 추가 */
+  }
+
+.nav-item:hover {
+    background-color: #e9ecef; /* 마우스를 올렸을 때의 배경색 지정 */
+    font-weight: bold; /* 폰트 굵기 추가 */
+  }
+  .navbar-brand {
+  font-size: 24px; /* 로고 폰트 크기 설정 */
+  font-weight: bold; /* 폰트 굵기 추가 */
+  color: #4CAF50; /* 로고 색상 설정 */
+}
+
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:focus {
+    color: #4CAF50;
+  }
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 헤더 영역 */
+header {
+  background-image: url(images/salad.png);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+/* 인기 채식 식당*/
+#mep img {
+  border-radius: 8px; /* 이미지에 둥근 테두리 적용 */
+}
+
+#mep h5 {
+  font-size: 24px; /* 식당 이름 폰트 크기 설정 */
+  font-weight: bold; /* 폰트 굵기 추가 */
+  color: #4CAF50; /* 식당 이름 색상 설정 */
+  margin-bottom: 10px; /* 식당 이름과 설명 간 간격 조절 */
+}
+
+#mep p {
+  margin-bottom: 21px; /* 간단한 설명 문단 간 간격 조절 */
+  font-size: 19px;
+}
+
+#mep .btn-secondary {
+  margin-top: 25px;
+  margin-bottom: 70px; /* 버튼과 하단 간 간격 조절 */
+}
+
+#mep a#greenres,
+#mep a#localeat {
+  text-decoration: none; /* 일반 상태에서 밑줄 제거 */
+}
+
+#mep a#greenres:hover,
+#mep a#localeat:hover {
+  text-decoration: underline; /* hover 시 밑줄 보이게 설정 */
+  text-decoration-color: rgb(8, 168, 16); /* hover 시 글자 색상 변경 */
+}
+
+/* 뉴스 섹션 */
+#news {
+  background-image: url(images/basil.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#news h2 {
+  font-size: 40;
+}
+
+/* 풋터 스타일 */
+footer {
+  background-color: #4CAF50; /* 원하는 초록색 코드로 변경 */
+}
+
+/* restaurant.html */
+#restaurant img {
+  border-radius: 8px; /* 이미지에 둥근 테두리 적용 */
+}
+
+#restaurant h5 {
+  font-size: 24px; /* 식당 이름 폰트 크기 설정 */
+  font-weight: bold; /* 폰트 굵기 추가 */
+  color: #4CAF50; /* 식당 이름 색상 설정 */
+  margin-bottom: 10px; /* 식당 이름과 설명 간 간격 조절 */
+}
+
+#restaurant p {
+  margin-bottom: 21px; /* 간단한 설명 문단 간 간격 조절 */
+  font-size: 19px;
+}
+
+#restaurant a#greenres,
+#restaurant a#localeat,
+#restaurant a#day,
+#restaurant a#osg,
+#restaurant a#place {
+  text-decoration: none; /* 일반 상태에서 밑줄 제거 */
+}
+
+#restaurant a#greenres:hover,
+#restaurant a#localeat:hover,
+#restaurant a#day:hover,
+#restaurant a#osg:hover,
+#restaurant a#place:hover {
+  text-decoration: underline; /* hover 시 밑줄 보이게 설정 */
+  text-decoration-color: rgb(8, 168, 16); /* hover 시 글자 색상 변경 */
+}

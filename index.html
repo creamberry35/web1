@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Green Feeling</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <!--구글폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--네비게이션 영역 시작-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Green Feeling</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="nav-menu" aria-expanded="false" aria-label="메뉴">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="nav-menu">
+          <ul class="navbar-nav ms-auto my-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">홈</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="vegetarian.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">채식</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">푸푸테리언</a></li>
+                <li><a class="dropdown-item" href="#">비건</a></li>
+                <li><a class="dropdown-item" href="#">락토 베지테리언</a></li>
+                <li><a class="dropdown-item" href="#">오보 베지테리언</a></li>
+                <li><a class="dropdown-item" href="#">락토-오보 베지테리언</a></li>
+                <li><a class="dropdown-item" href="#">페스코베지테리언</a></li>
+                <li><a class="dropdown-item" href="#">폴로 베지테리언</a></li>
+                <li><a class="dropdown-item" href="#">플렉시테리언</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recipe.html">레시피</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="restaurant.html">맛집</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">콘텐츠</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--네비게이션 영역 끝-->
+
+    <!--헤더 영역 시작-->
+    <header class="vh-100 text-white d-flex flex-column justify-content-center align-items-center" id="home">
+      <h1 class="display-3 fw-bold mb-3">Green Feeling</h1>
+      <p class="lead mb-2">지속가능한 라이프스타일</p>
+    </header>
+    <!--헤더 영역 끝-->
+    
+    <!--이달의 레시피 섹션 코드 시작-->
+    <section class="py-5" id="Rotm">
+      <div class="container overflow-hidden">
+        <div class="text-center py-5">
+          <h2 class="fw-bold mb-3">이달의 레시피</h2>
+          <p class="lead">채식의 즐거움, 건강한 생활의 시작!</p>
+        </div>
+        <div class="row justify-content-center pb-5 g-4">
+          <!-- 첫 번째 레시피 카드 -->
+          <div class="col-sm-8 col-lg-6">
+            <div class="card">
+              <img src="images/cookies.jpg" alt="이달의 레시피 1" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">쌀가루 비건 쿠키</h5>
+                <p class="card-text">두유와 박력 쌀가루를 이용한 초간단 비건 쿠키</p>
+                <a href="https://youtu.be/lkj4nXQBbCs?si=P_X150IukFd39lHJ" target="_blank" class="btn btn-outline-success">레시피 보러가기</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 두 번째 레시피 카드 -->
+          <div class="col-sm-8 col-lg-6 mb-3">
+            <div class="card">
+              <img src="images/pasta1.jpg" alt="이달의 레시피 2" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">들깨 칼국수</h5>
+                <p class="card-text">추운 날 몸을 따뜻하게 해줄 건강식 채소요리</p>
+                <a href="https://youtu.be/tgDz3mU9IW4?si=-LLanPa-_fvxKyNA" target="_blank" class="btn btn-outline-success">레시피 보러가기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--더 많은 레시피 보러가기 버튼-->
+        <div class="text-center mb-4">
+          <a href="recipe.html" class="btn btn-secondary btn-lg">더 많은 레시피 보러가기</a>
+        </div>
+      </div>
+    </section> 
+    <!--이달의 레시피 섹션 코드 끝-->
+    <hr>
+
+    <!--이달의 인기 채식 식당 코드 시작-->
+    <section class="container py-5" id="mep">
+      <div class="text-center py-5">
+        <h2 class="fw-bold mb-3">인기 채식 식당</h2>
+        <p class="lead">누구든지 체험할 수 있는 건강한 식사</p>
+      </div>
+        <div class="row justify-content-center align-items-center mb-5">
+          <!--첫 번쨰 식당-->
+            <div class="col-md-5">
+              <img class="img-fluid" src="images/mushrooms.jpg" alt="초록뜰식당">
+            </div>
+            <div class="col-md-7 col-lg-5 px-lg-5">
+              <a href="https://naver.me/5IFstiiu" id="greenres" target="_blank">
+              <h5 class="fw-bold mb-3">초록뜰식당</h5></a>
+              <p class="lh-lg"><i class="bi bi-geo-alt"></i> 회기역 2번 출구에서 592m</p>
+              <p class="lh-lg"><i class="bi bi-search"></i> 묵밥, 버섯전골, 들깨칼국수, 야채칼국수</p>
+            </div>          
+        </div>
+        <div class="row justify-content-center align-items-center mb-5">
+          <!--두 번째 식당-->
+          <div class="col-md-5">
+            <img class="img-fluid" src="images/gnocchi.jpg" alt="로컬릿">
+          </div>
+          <div class="col-md-7 col-lg-5 px-lg-5">
+            <a href="https://naver.me/FCbBXIpy" id="localeat" target="_blank">
+            <h5 class="fw-bold mb-3">로컬릿</h5></a>
+            <p class="lh-lg"><i class="bi bi-geo-alt"></i> 옥수역 4번 출구에서 261m</p>
+            <p class="lh-lg"><i class="bi bi-search"></i> 채소테린, 가지 라자냐, 채소 포카치아피자, 시금치 뇨끼, 비건 비트 뇨끼, 비건 채소 리가토니</p>
+          </div>
+        </div>
+      
+      <!--더 많은 식당 보러가기 버튼-->
+      <div class="text-center">
+        <a href="restaurant.html" class="btn btn-secondary btn-lg">더 많은 식당 보러가기</a>
+      </div>
+    </section>
+    <!--이달의 인기 채식 식당 코드 끝-->
+    
+
+    <!--뉴스 섹션 시작-->
+    <section class="py-5" id="news">
+      <div class="container">
+        <div class="row p-4 align-items-center">
+          <div class="col-lg-9 text-light">
+            <h2 class="fw-bold mb-3">K-비건 News</h2>
+            <p>김밥, 나물 식단 등 해외가 주목한 K-비건</p>
+          </div>
+          
+          <div class="col-lg-5">
+            <!--Button trigger modal-->
+            <button type="button" class="btn btn-warning px-4" data-bs-toggle="modal" data-bs-target="#newsmodal">뉴스 보기</button>
+            <!--Modal-->
+            <div class="modal fade" id="newsmodal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="newsModaltitle" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="newsModaltitle">K-비건 News</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                      <iframe src="https://youtu.be/I9gUsQp3-XQ?si=irEZSMR7apH49I3c"
+                        title="Youtube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--뉴스 섹션 끝-->
+
+    <!--풋터 시작-->
+    <footer class="text-white">
+      <div class="container text-center">
+        <p class="py-4 mb-0">contact. 010-0000-0000 / Green Feeling@naver.com</p>
+      </div>
+    </footer>
+    <!--풋터 끝-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
